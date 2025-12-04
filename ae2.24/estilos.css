@@ -1,0 +1,61 @@
+:root {
+    --fuente-principal: Arial;
+  
+}
+.primer-contenedor{
+    display: flex;
+    
+}
+.sombra{
+    border: 1px solid grey;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    font-family: var(--fuente-principal);
+}
+.gradiente{
+    border: 1px solid grey;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    background: linear-gradient(to bottom,#3498db, #1f587d);
+    color: white;
+}.imagen {
+    text-align: left; 
+    margin: 20px 0;
+}
+
+.imagen h1 {
+    margin-bottom: 20px; /* espacio entre título y las imágenes */
+}
+
+.imagenes-contenedor {
+    display: flex;
+    justify-content: center; /* centra las imágenes horizontalmente */
+    gap: 20px; /* espacio entre las imágenes */
+}
+
+.imagenes-contenedor img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+/* Sin filtro */
+.normal {
+    filter: none;
+}
+
+/* Filtro 1: escala de grises */
+.filtro1 {
+    filter: contrast(120%) brightness(80%);
+}
+
+/* Filtro 2: invertido y desenfoque */
+.filtro2 {
+    filter: invert(100%) blur(1px);
+}

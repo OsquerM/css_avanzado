@@ -1,0 +1,23 @@
+.contenedor-principal {
+    width: 100%; /* Ancho del contenedor principal */
+    display: flex; /* Usar flexbox para alinear los contenedores */
+}
+
+.primer-contenedor {
+    width: 300px; /* Ancho fijo */
+    background-color: #3498db;
+    padding: 10px;
+    box-sizing: border-box;
+    display: inline-block; /* Para que no ocupe toda la línea */
+    vertical-align: top; /* Alineación con el contenedor ajustable */
+}
+
+.contenedor-ajustable {
+    width: calc(100% - 300px); /* Resto del ancho */
+    background-color: #e74c3c;
+    padding: 10px;
+    box-sizing: border-box;
+    display: inline-block; /* Para que se alinee al lado del fijo */
+    vertical-align: top;
+}
+/* Calc() Realiza calculos matemáticos en propiedades CSS */
