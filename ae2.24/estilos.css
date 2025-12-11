@@ -107,7 +107,7 @@ h1, p {
     top: 50%;       /* centrado vertical respecto al icono */
     left: 100%;     /* justo a la derecha del icono de donde esta situado */
     margin-left: 5px;
-    transform: translateY(-50%);
+    transform: translateY(-50%); /* mueve hacia arriba un 50% de su propia altura */
 
     opacity: 0;
     transition: opacity 0.5s ease; /* transición suave */
