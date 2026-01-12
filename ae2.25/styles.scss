@@ -1,0 +1,33 @@
+// Variables para los colores
+$primary-color: #3498db;
+$success-color: #27ae60;
+$danger-color: #e74c3c;
+
+// Mapa de colores para los botones
+$button-colors: (
+  b1: $primary-color,
+  b2: $success-color,
+  b3: $danger-color
+);
+
+// Estilos generales de los botones
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  border: none;
+  color: white;
+  transition: background-color 0.3s ease;
+
+  // Anidamiento y & para estilos específicos
+  @each $class, $color in $button-colors {
+    &.#{$class} {          
+      background-color: $color;
+
+      &:hover {             
+        background-color: darken($color, 10%);
+      }                     
+    }                       
+  }                        
+}                          

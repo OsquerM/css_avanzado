@@ -28,9 +28,9 @@ h1, p {
     margin: 20px;
     background: linear-gradient(to bottom,#3498db, #1f587d);
     color: white;
-
+}
 /* IMAGEN */
-}.imagen {
+.imagen {
     text-align: left; 
     margin: 20px 0;
 }
@@ -103,7 +103,7 @@ h1, p {
     padding: 5px;
     border-radius: 6px;
 
-    position: absolute;
+    position: absolute; /* */
     top: 50%;       /* centrado vertical respecto al icono */
     left: 100%;     /* justo a la derecha del icono de donde esta situado */
     margin-left: 5px;
