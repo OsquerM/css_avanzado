@@ -1,0 +1,89 @@
+.container {
+  width: 150px;
+  height: 100px;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.container-1 {
+  background-color: #3498db;
+}
+
+.container-1:hover {
+  background-color: #2e86c1;
+}
+
+.container-2 {
+  background-color: #27ae60;
+}
+
+.container-2:hover {
+  background-color: #23954f;
+}
+
+.container-3 {
+  background-color: #e74c3c;
+}
+
+.container-3:hover {
+  background-color: #cf4434;
+}
+
+.container-4 {
+  background-color: #9b59b6;
+}
+
+.container-4:hover {
+  background-color: #8744a6;
+}
+
+.container-5 {
+  background-color: #f1c40f;
+}
+
+.container-5:hover {
+  background-color: #d1ab0e;
+}
+
+.container-6 {
+  background-color: #2ecc71;
+}
+
+.container-6:hover {
+  background-color: #29b666;
+}
+
+.container-7 {
+  background-color: #e67e22;
+}
+
+.container-7:hover {
+  background-color: #ca701f;
+}
+
+.container-8 {
+  background-color: #1abc9c;
+}
+
+.container-8:hover {
+  background-color: #179f87;
+}
+
+.container-9 {
+  background-color: #34495e;
+}
+
+.container-9:hover {
+  background-color: #2f4252;
+}
+
+.container-10 {
+  background-color: #d35400;
+}
+
+.container-10:hover {
+  background-color: #b44a00;
+}
