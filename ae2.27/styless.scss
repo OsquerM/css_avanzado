@@ -93,3 +93,8 @@ h3 {
     margin-right: 20px;
   }
 }
+//mixin center-element crea un contenedor flexbox que centra su contenido tanto horizontal como verticalmente.
+
+// .centered aplica este mixin a un contenedor específico, asegurando que solo el último elemento hijo esté centrado, mientras que los demás tienen un margen a la derecha para separación.
+//> solo hijos directos del contenedor .centered y * selecciona todos los elementos hijos.
+// :not(:last-child) excluye el último hijo del contenedor, aplicando el margen solo a los demás hijos.

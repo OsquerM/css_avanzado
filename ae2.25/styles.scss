@@ -31,3 +31,6 @@ button {
     }                       
   }                        
 }                          
+// La & hace referencia al selector padre, en este caso el botón.
+// El @each itera sobre el mapa de colores para crear clases específicas.
+// &:#{$class} genera clases como .b1, .b2, .b3 para los botones.
